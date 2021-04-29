@@ -45,4 +45,5 @@ def balances(address="DEFI_ADDRESS", httpRpc="https://rpc-mainnet.maticvigil.com
             print("%s (variable): (%s)" % (token, bal))
 
 if __name__=='__main__':
+    # auto-parse the function for help info
     darp.prep(balances).run()
